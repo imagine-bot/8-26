@@ -13,9 +13,8 @@ const CounterButton = () => {
         className="px-4 py-2 rounded hover:bg-blue-500 hover:text-white transition-colors"
         onClick={handleClick}
       >
-        Increase by 2
+        {count}
       </button>
-      <p>Count: {count}</p>
     </div>
   );
 };
