@@ -8,8 +8,13 @@ const CounterButton = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleClick}>Increase by 2</button>
+    <div className="flex justify-center items-center h-screen">
+      <button 
+        className="px-4 py-2 rounded hover:bg-blue-500 hover:text-white transition-colors"
+        onClick={handleClick}
+      >
+        Increase by 2
+      </button>
       <p>Count: {count}</p>
     </div>
   );
